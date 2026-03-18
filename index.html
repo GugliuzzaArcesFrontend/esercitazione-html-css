@@ -7,15 +7,19 @@
    <link rel="stylesheet" href="style.css">
    <title>Document</title>
 </head>
+
 <body>
-   <header>
+   <header class="header container">
+      <div class="logo">
+         <img src="https://picsum.photos/id/237/150/150" alt="" class="logo picture">
+      </div>
+
       <nav>
-         <div class="logo"></div>
-         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href=""></a>Features</li>
-            <li><a href=""></a>Team</li>
-            <li><a href=""></a></li>
+         <ul class="links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contacts">Contattaci</a></li>
          </ul>
       </nav>
    </header>
@@ -23,31 +27,31 @@
    <main>
       <section class="banner">
          <article class="banner">
-            <h2 class="welcome"></h2>
+            <h1 class="welcome title" id="home">Cinappi 1</h1>
             <p class="description"></p>
          </article>
       </section>
 
       <section class="features">
-         <h2 class="features title"></h2>
+         <h2 class="features title" id="features">Cinappi 2</h2>
          <article class="feature card">
-            <h3 class="featname"></h3>
+            <h3 class="featname subtitle"></h3>
             <p class="featdesc"></p>
          </article>
 
          <article class="feature card">
-            <h3 class="featname"></h3>
+            <h3 class="featname subtitle">Minicinappi</h3>
             <p class="featdesc"></p>
          </article>
 
          <article class="feature card">
-            <h3 class="featname"></h3>
+            <h3 class="featname subtitle">Placeholder</h3>
             <p class="featdesc"></p>
          </article>
       </section>
 
       <section class="team">
-         <h2 class="team title"></h2>
+         <h2 class="team title" id="team"></h2>
          <article class="team card">
             <div class="avatar"><img src="" alt="" class="picture"></div>
             <h3 class="name"></h3>
@@ -86,13 +90,13 @@
       </section>
 
       <section class="contacts">
-         <h2 class="contacts title">
+         <h2 class="contacts title" id="contacts">
 
          </h2>
          <p class="contacts"></p>
       </section>
    </main>
-   
+
    <footer>
       <h2 class="footer title"></h2>
       <p class="copyrights"></p>
