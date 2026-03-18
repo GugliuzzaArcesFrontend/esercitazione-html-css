@@ -6,10 +6,17 @@ body{
    padding: 0;
    box-sizing: border-box;
 }
+/* common */
+
 /* intestazione*/
-header{}
+header{
+}
 
-/* */
-main{}
+/* corpo */
+main{
+}
 
-footer{}
+/* pièpagina*/
+footer{
+
+}
